@@ -50,6 +50,14 @@ Just check the commands in command_templates for example
 
 - Thaat's the format and it will auto add any you put in that file as long as they have the right structure.
 
+
+## Ideas
+
+1. Verify installed tools more fluidly (update colors etc based on missing info)
+2. Add proper help docs
+3. Adjust for user input (http/httpx as well as hashtype and report back if output failed etc)
+4. Position terminals using cmd /k around the screen for full hacker vibe
+
 ## Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
