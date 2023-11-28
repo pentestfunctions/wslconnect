@@ -27,6 +27,29 @@ Basically just interacts with WSL and allows for some quick command usage for me
 </p>
 
 
+### Extras:
+So this uses WSL, preferably kali-linux-headless as it comes with most tools already, you will need some wordlists etc.
+
+- Also to get the proper version of httpx
+
+```bash
+sudo apt install golang-go
+go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+cp /home/robot/go/bin/httpx /usr/bin/httpx
+```
+
+Just check the commands in command_templates for example 
+
+```python
+        "ping": {
+            "command": "wsl ping {}",
+            "required_files": ["ping"],
+            "Explanation": "Sends ICMP packets to the target URL to check connectivity and measure response time."
+        },
+```
+
+- Thaat's the format and it will auto add any you put in that file as long as they have the right structure.
+
 ## Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
