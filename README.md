@@ -18,6 +18,11 @@
 pyinstaller --onefile --windowed --add-data "utils/logo.png;." wslconnect.py
 ```
 
+(Make sure you install the requirements.txt)
+```bash
+pip install requirements.txt
+```
+
 ### Usage:
 
 Basically just interacts with WSL and allows for some quick command usage for messing around.
